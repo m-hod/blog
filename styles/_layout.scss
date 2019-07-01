@@ -1,13 +1,45 @@
-// put layout styling here
+// put layout and default styling here
 
 body {
     margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 320px) {
     .blog {
-        background: white;
+        // height: 30%;
+        // display: flex;
+    }
+    .blog__text {
+        padding: 10px;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .blog__image {
         height: auto;
-        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 320px) {
+    .blog__image {
+        height: auto;
+        max-width: 70%;
     }
 }

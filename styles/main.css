@@ -1,12 +1,37 @@
 body {
-  margin: 0; }
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 16px; }
+
+h1 {
+  font-family: 'Abel', sans-serif; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
 
 @media (max-width: 320px) {
-  .blog {
-    background: white;
+  .blog__text {
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black; }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+
+  .blog__image {
     height: auto;
-    width: 100%; } }
-.blog:nth-of-type(1) {
+    max-width: 100%; } }
+@media (min-width: 320px) {
+  .blog__image {
+    height: auto;
+    max-width: 70%; } }
+.blog__image:nth-of-type(1) {
   background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"); }
+.blog__image:nth-of-type(2) {
+  background-image: url("https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"); }
 
 /*# sourceMappingURL=main.css.map */
