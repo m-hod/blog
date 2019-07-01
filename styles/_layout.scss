@@ -3,3 +3,11 @@
 body {
     margin: 0;
 }
+
+@media (max-width: 320px) {
+    .blog {
+        background: white;
+        height: auto;
+        width: 100%;
+    }
+}
