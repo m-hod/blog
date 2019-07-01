@@ -14,8 +14,22 @@ p {
   height: 250px;
   width: 100%; }
 
-.blog__description {
-  text-align: center; }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background-color: gray; }
+
+.footer__icon {
+  font-size: 40px;
+  margin: auto 10px;
+  color: #2e2e2e;
+  text-decoration: none; }
+  .footer__icon:hover {
+    color: white; }
+  .footer__icon:visited {
+    color: inherit; }
 
 @media (max-width: 350px) {
   .blog {
@@ -34,17 +48,17 @@ p {
     text-shadow: 2px 2px 1px black; }
 
   h1 {
-    font-size: 46px;
-    text-align: center;
-    margin: auto;
-    padding: 0; }
+    font-size: 46px; }
 
   .blog__description--hidden {
     display: none; } }
 @media (min-width: 350px) {
   .blog__image {
     height: 100%;
-    max-width: 70%; } }
+    max-width: 70%; }
+
+  .blog__description {
+    text-align: center; } }
 .blog:nth-of-type(1) .blog__image {
   background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"); }
 .blog:nth-of-type(2) .blog__image {
