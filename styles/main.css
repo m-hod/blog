@@ -9,6 +9,11 @@ h1 {
 p {
   font-family: 'Open Sans', sans-serif; }
 
+a {
+  text-decoration: none; }
+  a:visited {
+    color: inherit; }
+
 .blog {
   display: flex; }
 
@@ -18,16 +23,12 @@ p {
   align-items: center;
   height: 10vh;
   background-color: gray; }
-
-.footer__icon {
-  font-size: 40px;
-  margin: auto 10px;
-  color: #2e2e2e;
-  text-decoration: none; }
-  .footer__icon:hover {
-    color: white; }
-  .footer__icon:visited {
-    color: inherit; }
+  .footer__icon {
+    font-size: 40px;
+    margin: auto 10px;
+    color: #2e2e2e; }
+    .footer__icon:hover {
+      color: white; }
 
 @media (max-width: 350px) {
   .blog {
@@ -50,32 +51,30 @@ p {
     justify-content: center;
     text-align: center;
     color: white; }
-
-  .blog__text--title {
-    font-size: 46px;
-    margin: 0;
-    text-shadow: 2px 2px 1px black; }
+    .blog__text--title {
+      font-size: 46px;
+      margin: 0;
+      text-shadow: 2px 2px 1px black; }
+    .blog__text--month {
+      margin-top: 5px;
+      margin-bottom: 0;
+      border-bottom: 1px solid white; }
+    .blog__text--year {
+      margin-top: 1px;
+      margin-bottom: 0; }
+    .blog__text--description--hidden {
+      display: none; }
 
   hr {
     width: 100%;
     margin-top: 2px;
     margin-bottom: 0;
-    color: white; }
-
-  .blog__text--month {
-    margin-top: 5px;
-    margin-bottom: 0;
-    border-bottom: 1px solid white; }
-
-  .blog__text--year {
-    margin-top: 1px;
-    margin-bottom: 0; }
-
-  .blog__text--description--hidden {
-    display: none; } }
+    color: white; } }
 @media (min-width: 350px) {
   .blog {
-    height: 50vh; }
+    height: 35vh; }
+    .blog:nth-of-type(1) {
+      height: 50vh; }
 
   .blog__image {
     height: 100%;
@@ -85,7 +84,7 @@ p {
     display: flex;
     justify-content: right; }
 
-  .blog__description {
+  .blog__text--description {
     text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
