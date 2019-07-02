@@ -16,7 +16,6 @@ p {
 
 .blog {
     display: flex;
-    width: 100%;
 }
 
 .footer {
@@ -44,20 +43,25 @@ p {
     .blog {
         flex-direction: column;
         height: 35vh;
+        width: 100vw;
+        position: relative;
     }
     .blog__image {
         height: 100%;
         width: 100%;
+        filter: blur(0.75px) opacity(90%);
     }
     .blog__text {
+        position: absolute;
         height: 100%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         text-shadow: 2px 2px 1px black;
     }
-    h1 {
+    .blog__title {
         font-size: 46px;
     }
     .blog__description--hidden {
@@ -72,6 +76,10 @@ p {
     .blog__image {
         height: 100%;
         max-width: 70%;
+    }
+    .blog__text {
+        display: flex;
+        justify-content: right;
     }
     .blog__description {
         text-align: center;
