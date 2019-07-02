@@ -31,7 +31,6 @@ p {
 
 @media (max-width: 350px) {
   .blog {
-    flex-direction: column;
     height: 35vh;
     width: 100vw;
     position: relative; }
@@ -46,15 +45,33 @@ p {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    text-align: center;
+    color: white; }
+
+  .blog__text--title {
+    font-size: 46px;
+    margin: 0;
     text-shadow: 2px 2px 1px black; }
 
-  .blog__title {
-    font-size: 46px; }
+  hr {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 0;
+    color: white; }
 
-  .blog__description--hidden {
+  .blog__text--month {
+    margin-top: 5px;
+    margin-bottom: 0;
+    border-bottom: 1px solid white; }
+
+  .blog__text--year {
+    margin-top: 1px;
+    margin-bottom: 0; }
+
+  .blog__text--description--hidden {
     display: none; } }
 @media (min-width: 350px) {
   .blog {
