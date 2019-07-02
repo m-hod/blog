@@ -16,7 +16,6 @@ p {
 
 .blog {
     display: flex;
-    height: 250px;
     width: 100%;
 }
 
@@ -24,7 +23,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75px;
+    height: 10vh;
     background-color: gray;
 }
 
@@ -44,6 +43,7 @@ p {
 @media (max-width: 350px) {
     .blog {
         flex-direction: column;
+        height: 35vh;
     }
     .blog__image {
         height: 100%;
@@ -66,6 +66,9 @@ p {
 }
 
 @media (min-width: 350px) {
+    .blog {
+        height: 50vh;
+    }
     .blog__image {
         height: 100%;
         max-width: 70%;
