@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   font-size: 16px;
-  background-color: gray;
+  background-color: #1a1a1a;
 }
 
 h1 {
@@ -30,15 +30,15 @@ a:visited {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  background-color: gray;
+  background-color: #1a1a1a;
 }
 .footer__icon {
   font-size: 40px;
   margin: auto 10px;
-  color: #2e2e2e;
+  color: #666666;
 }
 .footer__icon:hover {
-  color: white;
+  color: #d6d6d6;
 }
 
 @media (max-width: 350px) {
@@ -130,6 +130,7 @@ a:visited {
     overflow: hidden;
     position: relative;
     width: 100%;
+    color: white;
   }
   .blog__text--right-aligned {
     text-align: left;
@@ -138,23 +139,37 @@ a:visited {
     text-align: right;
   }
   .blog__text--title {
-    font-size: 46px;
-    margin: 10px 0px 0px 0px;
+    color: #d6d6d6;
+    font-size: 52px;
+    margin: 10px 10px 0px 0px;
   }
   .blog__text--month {
+    color: #d6d6d6;
     font-size: 20px;
     margin: 0;
-    margin-top: 10px;
-    border-bottom: 1px solid black;
+    margin-top: 17.5px;
+    border-bottom: 1px solid #d6d6d6;
   }
   .blog__text--year {
+    color: #d6d6d6;
     font-size: 20px;
     margin: 0;
   }
   .blog__text--description {
+    color: #d6d6d6;
     position: absolute;
     margin-right: 10px;
+    padding-right: 10px;
     top: 50%;
+  }
+  .blog__text--description:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    pointer-events: none;
+    background: linear-gradient(transparent, #1a1a1a);
   }
   .blog__text--description:hover {
     top: 35%;
@@ -162,8 +177,9 @@ a:visited {
 
   hr {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 0;
+    color: #d6d6d6;
   }
 }
 

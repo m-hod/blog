@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;
-    background-color: gray;
+    background-color: #1a1a1a;
 }
 
 h1 {
@@ -32,13 +32,13 @@ a {
     justify-content: center;
     align-items: center;
     height: 10vh;
-    background-color: gray;
+    background-color: #1a1a1a;
     &__icon {
         font-size: 40px;
         margin: auto 10px;
-        color: rgb(46, 46, 46);
+        color: #666666;
         &:hover {
-            color: white;
+            color: #d6d6d6;
         }
     }
 }
@@ -131,6 +131,7 @@ a {
         overflow: hidden;
         position: relative;
         width: 100%;
+        color: white;
         &--right-aligned {
             text-align: left;
         }
@@ -138,23 +139,40 @@ a {
             text-align: right;
         }
         &--title {
-            font-size: 46px;
-            margin: 10px 0px 0px 0px;
+            color: #d6d6d6;
+            font-size: 52px;
+            margin: 10px 10px 0px 0px;
         }
         &--month {
+            color: #d6d6d6;
             font-size: 20px;
             margin: 0;
-            margin-top: 10px;
-            border-bottom: 1px solid black;
+            margin-top: 17.5px;
+            border-bottom: 1px solid #d6d6d6;
         }
         &--year {
+            color: #d6d6d6;
             font-size: 20px;
             margin: 0;
         }
         &--description {
+            color: #d6d6d6;
             position: absolute;
             margin-right: 10px;
+            padding-right: 10px;
             top: 50%;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 50%;
+                pointer-events: none;
+                background: linear-gradient(transparent, #1a1a1a);
+                // &:hover {
+                //     display: none;
+                // }
+            }
             &:hover {
                 top: 35%;
                 // &.blog {
@@ -165,7 +183,21 @@ a {
     }
     hr {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 15px;
         margin-bottom: 0;
+        color: #d6d6d6;
     }
 }
+
+
+//Color Pallette
+// #1A1A1A - Eerie Black
+// #333333 - Jet
+// #4D4D4D - Dark Liver
+// #666666 - Granite Gray
+// #808080 - Trolley Grey
+// #828282 - Old Silver
+// #9E9E9E - Spanish Gray
+// #BABABA - X11 Gray
+// #D6D6D6 - Light Gray
+// #F2F2F2 - Anti-Flash White
