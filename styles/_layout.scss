@@ -161,17 +161,6 @@ a {
             margin-right: 10px;
             padding-right: 10px;
             top: 50%;
-            &:before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 50%;
-                pointer-events: none;
-                background: linear-gradient(transparent, #1a1a1a);
-                // &:hover {
-                //     display: none;
-                // }
             }
             &:hover {
                 top: 35%;
@@ -180,6 +169,17 @@ a {
                 // }
             }
         }
+        &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 50%;
+            pointer-events: none;
+            background: linear-gradient(transparent, #1a1a1a);
+            &:hover {
+                display: none;
+            }
     }
     hr {
         width: 100%;
