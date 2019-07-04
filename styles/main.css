@@ -41,7 +41,7 @@ a:visited {
   color: white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 350px) {
   .blog {
     height: 250px;
     width: 100vw;
@@ -94,7 +94,7 @@ a:visited {
     color: white;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 350px) {
   .blog {
     height: 350px;
     width: 100vw;
