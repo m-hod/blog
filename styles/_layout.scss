@@ -94,13 +94,13 @@ a {
     }
 }
 
-@media (min-width: 350px) {
+@media (min-width: 400px) {
     .blog {
         height: 350px;
         width: 100vw;
-        &:hover {
-            height: 500px;
-        }
+        // &:hover {
+        //     height: 500px;
+        // }
     }
     .blog__image {
         display: none;
@@ -157,6 +157,9 @@ a {
             top: 50%;
             &:hover {
                 top: 35%;
+                // &.blog {
+                //     height: 500px;
+                // }
             }
         }
     }

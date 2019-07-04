@@ -94,13 +94,10 @@ a:visited {
     color: white;
   }
 }
-@media (min-width: 350px) {
+@media (min-width: 400px) {
   .blog {
     height: 350px;
     width: 100vw;
-  }
-  .blog:hover {
-    height: 500px;
   }
 
   .blog__image {
