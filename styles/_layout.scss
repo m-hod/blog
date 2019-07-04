@@ -92,20 +92,22 @@ a {
 
 @media (min-width: 350px) {
     .blog {
+        height: 35vh;
+        width: 100vw;
         &:nth-of-type(1) {
             height: 50vh;
         }
-        height: 35vh;
     }
     .blog__image {
-        height: 100%;
-        max-width: 70%;
+        height: auto;
+        max-width: 100%;
+        // width: 200%;
     }
     .blog__text {
         display: flex;
-        justify-content: right;
+        // justify-content: right;
     }
     .blog__text--description {
-        text-align: center;
+        text-align: left;
     }
 }
