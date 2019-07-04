@@ -67,6 +67,7 @@ a {
         justify-content: center;
         text-align: center;
         color: white;
+        overflow: hidden;
         &--title {
             font-size: 46px;
             margin: 0;
@@ -120,9 +121,32 @@ a {
     }
     .blog__text {
         display: flex;
-        // justify-content: right;
+        flex-direction: column;
+        margin: 0px 10px;
+        padding: 10px;
+        overflow: hidden;
+        &--right-aligned {
+            text-align: left;
+        }
+        &--left-aligned {
+            text-align: right;
+        }
+        &--title {
+            font-size: 46px;
+            margin: 10px 0px 0px 0px;
+        }
+        // &--month {
+
+        // }
+        // &--year {
+
+        // }
+        // &--description {
+        // }
     }
-    .blog__text--description {
-        text-align: left;
+    hr {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
     }
 }

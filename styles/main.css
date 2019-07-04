@@ -67,6 +67,7 @@ a:visited {
     justify-content: center;
     text-align: center;
     color: white;
+    overflow: hidden;
   }
   .blog__text--title {
     font-size: 46px;
@@ -122,10 +123,26 @@ a:visited {
 
   .blog__text {
     display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .blog__text--right-aligned {
+    text-align: left;
+  }
+  .blog__text--left-aligned {
+    text-align: right;
+  }
+  .blog__text--title {
+    font-size: 46px;
+    margin: 10px 0px 0px 0px;
   }
 
-  .blog__text--description {
-    text-align: left;
+  hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 }
 
