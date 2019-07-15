@@ -6,6 +6,20 @@ p {
     color: #d6d6d6;
 }
 
+a {
+    text-decoration: underline;
+}
+
 .blog__entry {
     margin: 5% 20%;
+
+}
+
+.blog__text--title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog__image--container {
+    height: 240px;
 }
