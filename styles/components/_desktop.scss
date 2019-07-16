@@ -1,0 +1,119 @@
+//put all media query styling for desktop breakpoints here
+
+
+@media (min-width: 450px) {
+    .blog {
+        height: 350px;
+        width: 100vw;
+        // &:hover {
+        //     height: 500px;
+        // }
+    }
+    .blog__image {
+        display: none;
+        &--container {
+            min-height: 100%;
+            min-width: 70%;
+            max-width: 100%;
+            background-color: gray;
+            // &:nth-of-type(1) {
+            //     background: url("https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+            //     background-size: 100%;
+            // }
+            // &:nth-of-type(2) {
+            //     background: url("https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+            //     background-size: 100%;
+            // }
+            &--sprint4_core {
+                // position: relative;
+                // bottom: 10px;
+                background: url(../blog/sprint4_core/david-clode-75CxJTYeUYs-unsplash.jpg);
+                background-size: 100%;
+            }
+            &--sprint3_technical {
+                background: url(../blog/sprint3_technical/markus-spiske-xekxE_VR0Ec-unsplash.jpg);
+                background-size: 100%;
+            }
+            &--sprint3_core {
+                background: url(../blog/sprint3_core/art-by-lonfeldt-gKlnwCvghTU-unsplash.jpg);
+                background-size: 100%;
+            }
+            &--sprint2_technical {
+                background: url(../blog/sprint2_technical/pankaj-patel-6JVlSdgMacE-unsplash.jpg);
+                background-size: 100%;
+            }
+            &--sprint2_core {
+                background: url(../blog/sprint2_core/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg);
+                background-size: 100%;
+            }
+            &--sprint1_core {
+                background: url(../blog/sprint1_core/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg);
+                background-size: 100%;
+            }
+        }
+    }
+    .blog__text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 10px;
+        padding: 10px;
+        overflow: hidden;
+        position: relative;
+        &--right-aligned {
+            text-align: left;
+        }
+        &--left-aligned {
+            text-align: right;
+        }
+        &--title {
+            color: #d6d6d6;
+            // display: inline-block;
+            font-size: 52px;
+            margin: 10px 10px 0px 0px;
+        }
+        &--month {
+            color: #d6d6d6;
+            font-size: 20px;
+            margin: 0;
+            margin-top: 17.5px;
+            border-bottom: 1px solid #d6d6d6;
+        }
+        &--year {
+            color: #d6d6d6;
+            font-size: 20px;
+            margin: 0;
+        }
+        &--description {
+            color: #d6d6d6;
+            position: absolute;
+            margin-right: 10px;
+            padding-right: 10px;
+            top: 50%;
+            // &:hover {
+            //     top: 35%;
+            //     &.blog {
+            //          height: 500px;
+            //     }
+            // }
+            &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                // top: 50%;
+                pointer-events: none;
+                background: linear-gradient(transparent, #1a1a1a);
+                // &:hover {
+                //     display: none;
+                // }
+            }
+        }
+    }
+    hr {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 0;
+        color: #d6d6d6;
+    }
+}

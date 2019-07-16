@@ -1,5 +1,8 @@
 // import scss from other files then compile into main.css
 
-@import 'layout';
-@import 'components';
 @import 'base';
+@import 'utilities';
+@import 'components/mobile';
+@import 'components/desktop';
+@import 'components/footer';
+

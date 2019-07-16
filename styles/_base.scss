@@ -1,6 +1,40 @@
-// put mixins, variables, functions etc here
+//default styling goes here (eg: html/body styling, typography, h1/p standard styles etc.)
 
-//function to determine left or right hang based on order of blog entry
-//if mod % 2 == 1 hang right, else hang left
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #1a1a1a;
+}
 
-// $blogCount - variable where you update number of blogs (with js, would take the array value and when you push a new blog into it it auto updates)
+h1 {
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:visited {
+        color: inherit;
+    }
+}
+
+.blog {
+    display: flex;
+}
+
+//Color Pallette
+// #1A1A1A - Eerie Black
+// #333333 - Jet
+// #4D4D4D - Dark Liver
+// #666666 - Granite Gray
+// #808080 - Trolley Grey
+// #828282 - Old Silver
+// #9E9E9E - Spanish Gray
+// #BABABA - X11 Gray
+// #D6D6D6 - Light Gray
+// #F2F2F2 - Anti-Flash White
