@@ -130,13 +130,29 @@ a:visited {
   .blog__text--right-aligned {
     text-align: left;
   }
+  .blog__text--right-aligned h1 {
+    display: flex;
+    align-self: flex-start;
+  }
+  .blog__text--right-aligned .blog__text--month {
+    display: flex;
+    align-self: flex-start;
+  }
   .blog__text--left-aligned {
     text-align: right;
+  }
+  .blog__text--left-aligned h1 {
+    display: flex;
+    align-self: flex-end;
+  }
+  .blog__text--left-aligned .blog__text--month {
+    display: flex;
+    align-self: flex-end;
   }
   .blog__text--title {
     color: #d6d6d6;
     font-size: 52px;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
   .blog__text--month {
     color: #d6d6d6;
@@ -153,7 +169,6 @@ a:visited {
   .blog__text--description {
     color: #d6d6d6;
     position: absolute;
-    margin-right: 10px;
     padding-right: 10px;
     top: 50%;
   }
