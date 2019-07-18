@@ -82,6 +82,7 @@
         }
         &--description {
             color: #d6d6d6;
+            overflow-y: scroll;
             // position: absolute;
             // padding-right: 10px;
             // top: 50%;
@@ -110,5 +111,9 @@
         margin-top: 15px;
         margin-bottom: 0;
         color: #d6d6d6;
+    }
+    .divider {
+        width: 100vw;
+        height: 1vh;
     }
 }
