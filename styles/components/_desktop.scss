@@ -82,7 +82,9 @@
         }
         &--description {
             color: #d6d6d6;
-            overflow-y: scroll;
+            &--oversized {
+                overflow-y: scroll;
+            }
             // position: absolute;
             // padding-right: 10px;
             // top: 50%;
