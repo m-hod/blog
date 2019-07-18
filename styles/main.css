@@ -93,6 +93,10 @@ a:visited {
     max-width: 100%;
     background-color: gray;
   }
+  .blog__image--container--sprint4_technical {
+    background: url("../blog/sprint4_technical/joshua-coleman-fXls-tVemno-unsplash.jpg");
+    background-size: 100%;
+  }
   .blog__image--container--sprint4_core {
     background: url("../blog/sprint4_core/david-clode-75CxJTYeUYs-unsplash.jpg");
     background-size: 100%;

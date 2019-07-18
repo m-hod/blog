@@ -12,6 +12,9 @@
             min-width: 67.5%;
             max-width: 100%;
             background-color: gray;
+            &--sprint4_technical {
+                @include blogImage("../blog/sprint4_technical/joshua-coleman-fXls-tVemno-unsplash.jpg");
+            }
             &--sprint4_core {
                 @include blogImage("../blog/sprint4_core/david-clode-75CxJTYeUYs-unsplash.jpg");
             }
