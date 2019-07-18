@@ -179,11 +179,6 @@ a:visited {
     margin-bottom: 0;
     color: #d6d6d6;
   }
-
-  .divider {
-    width: 100vw;
-    height: 1vh;
-  }
 }
 .footer {
   display: flex;
