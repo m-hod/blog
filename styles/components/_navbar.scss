@@ -1,0 +1,23 @@
+nav {
+    height: 10vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #1a1a1a;    
+    color: #d6d6d6;
+    position: fixed;
+    z-index: 999;
+    &__title {
+        float: left;
+        font-size: 36px;
+        margin: 25px 20px;
+    }
+    &__menu {
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+}
