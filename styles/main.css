@@ -77,6 +77,10 @@ a:visited {
     margin-bottom: 0;
     color: white;
   }
+
+  .navbar__menu {
+    display: none;
+  }
 }
 @media (min-width: 450px) {
   .blog {
@@ -92,6 +96,10 @@ a:visited {
     min-width: 67.5%;
     max-width: 100%;
     background-color: gray;
+  }
+  .blog__image--container--sprint5_core {
+    background: url("../blog/sprint5_core/leio-mclaren-leiomclaren-e1AtwT_cGPU-unsplash.jpg");
+    background-size: 100%;
   }
   .blog__image--container--sprint4_technical {
     background: url("../blog/sprint4_technical/joshua-coleman-fXls-tVemno-unsplash.jpg");

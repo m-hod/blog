@@ -12,6 +12,9 @@
             min-width: 67.5%;
             max-width: 100%;
             background-color: gray;
+            &--sprint5_core {
+                @include blogImage("../blog/sprint5_core/leio-mclaren-leiomclaren-e1AtwT_cGPU-unsplash.jpg");
+            }
             &--sprint4_technical {
                 @include blogImage("../blog/sprint4_technical/joshua-coleman-fXls-tVemno-unsplash.jpg");
             }
