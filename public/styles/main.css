@@ -97,38 +97,6 @@ a:visited {
     max-width: 100%;
     background-color: gray;
   }
-  .blog__image--container--sprint5_core {
-    background: url("../blog/sprint5_core/leio-mclaren-leiomclaren-e1AtwT_cGPU-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint4_technical {
-    background: url("../blog/sprint4_technical/joshua-coleman-fXls-tVemno-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint4_core {
-    background: url("../blog/sprint4_core/david-clode-75CxJTYeUYs-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint3_technical {
-    background: url("../blog/sprint3_technical/markus-spiske-xekxE_VR0Ec-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint3_core {
-    background: url("../blog/sprint3_core/art-by-lonfeldt-gKlnwCvghTU-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint2_technical {
-    background: url("../blog/sprint2_technical/pankaj-patel-6JVlSdgMacE-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint2_core {
-    background: url("../blog/sprint2_core/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg");
-    background-size: 100%;
-  }
-  .blog__image--container--sprint1_core {
-    background: url("../blog/sprint1_core/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg");
-    background-size: 100%;
-  }
 
   .blog__text {
     display: flex;
@@ -217,6 +185,9 @@ nav {
   float: right;
   margin-right: 40px;
   margin-top: 30px;
+}
+.navbar__menu:hover {
+  color: #d6d6d6;
 }
 
 .footer {

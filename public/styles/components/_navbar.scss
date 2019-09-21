@@ -22,5 +22,8 @@ nav {
         float: right;
         margin-right: 40px;
         margin-top: 30px;
+        &:hover {
+            color: #d6d6d6;
+        }
     }
 }
