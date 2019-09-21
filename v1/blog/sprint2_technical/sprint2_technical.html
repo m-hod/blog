@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="sprint2_technical.css">
+</head>
+<body>
+    <main>
+        <section class="blog__entry">
+            <div class="blog__entry--container">
+                <h1 class="blog__text--title">
+                    CSS Positioning
+                </h1>
+            </div>
+            <div class="blog__entry--text">
+                <hr>
+                <p>
+                    CSS positioning properties are incredibly useful aspects of the language that enable custom-tailored positioning of elements within the document. This allows users to interact with an elements position in the normal document flow, or remove it from the flow entirely and position it in isolation from other elements. This also allows manipulation of both the X and Y axis’, and a newly introduced Z axis to enable element stacking with pure CSS. These are done by declaring the position of an element with the property ‘position: ‘, followed by one of the four following values: ‘static’, ‘relative’, ‘absolute’, or ‘fixed’. The element can then be manually shifted by assigning unit values to the ‘top’, ‘right’, ‘bottom’, or ‘left’ properties that are available to be used on a positioned element. Of note, when using these, the element will shift in the opposite direction of the declared property, as it is like putting an invisible margin on that side of the element. For example, a declaration of ‘top: 10px’ will shift an element down ten pixels, as if a margin-top of 10px had been declared. Positioned elements then also have the option of being stacked with a unitless declaration of the ‘z-index’ property, which determines the element’s ‘depth’ in the document. Elements of a higher z-index value will display in front of elements with a lower declared z-index, so for example, given two identical elements placed in the same space, if element A is a positioned element (which it must be if one of them has been removed from the document flow to be able to be stacked on top of the other), and has declared ‘z-index: 2’, and element B, which is also a positioned element, has declared ‘z-index: 1’, element A will be displayed over the top of element B.
+                </p>
+                <h2>
+                    Static Positioning
+                </h2>
+                <p>
+                    ‘Static’ is the default value of a position property in CSS, and means an element is not a ‘positioned’ element. Manually declaring it usually won’t change much, and in fact would be an affront to the law of DRY if done without an explicit purpose, but it is important to know as if another position value has been unintentionally applied to an element, from for example, a shared class, then declaring ‘position: static’ on that element would forcibly reset it back to it’s normal unpositioned state (assuming specificity and inheritance mean that declaration overrides the declaration from the shared class).
+                </p>
+                <h2>
+                    Relative Positioning
+                </h2>
+                <p>
+                    ‘Relative’ positioning is the first real position declaration, and declared an element to be a ‘positioned’ element. On the surface, it may appear to have a very similar effect to declaring static position, that is, none, but this declaration does much more than that under the surface. Firstly, declaring an element to be positioned allows the use of the ‘top’, ‘right’, ‘bottom’, and ‘left’ manual position declarations, as previously mentioned. In a ‘relatively’ positioned element, these will shift the element relative to itself, that is, its original position in the document’s flow. For example, if the element was positioned at Y=50px and X=50px, and a declaration of ‘top: 10px’ was made, the element would shift down 10px relative to its normal position, giving it a new position of Y=40px and X=50px. Secondly, since the element has now been ‘positioned’, z-index manipulation is now possible, and so a z-index declaration can be made to position the element in front of others. By default, declaring a z-index value will position the element in front of any statically positioned elements, even if one of those has a z-index declaration of higher than the relatively positioned element, as statically positioned elements cannot access the z-index. It is however possible to place positioned elements underneath statically positioned elements with a negative z-index declaration, here the statically positioned element still does not interact with the z-index, but the positioned element does, and thus positions behind the static element. Finally, declaring an element to be positioned allows for a unique interaction with absolutely positioned elements that is not possible with non-positioned elements, which will be explained in the next section.
+                </p>
+                <h2>
+                    Absolute Positioning
+                </h2>
+                <p>
+                    ‘Absolute’ positioning declares an element to be removed from the normal document flow and be positioned anywhere, absolutely. Whereas a relatively positioned element will still interact with the document flow, with its position manipulated by the positions of other surrounding elements, and it in turn manipulating the position of those elements, an absolutely positioned element will ignore both of those interactions completely, not being affected by the positions of other elements, and in turn not affecting their positions. By default, declaring an element to be absolutely positioned will reset it’s position all the way back up to the highest level element of the document, the html element. Like any other positioned element, this can then be manually positioned with the ‘top’, ‘right’, ‘bottom’, and ‘left’ properties, however absolutely positioned elements have an important interaction with relatively positioned elements that allow some incredibly powerful positioning techniques. If another positioned element is a parent of an absolutely positioned element, rather than resetting its position back to the highest level element, it will look for the nearest positioned parent element. This means that if an absolutely positioned element is a child of a relatively positioned element, rather than resetting back to the html document origin, it will reset to the positioned element’s origin. This interaction means that relatively positioned parent elements can be utilized as containers for absolutely positioned elements, which opens the way to a vast amount of responsive styling options. As an example, the mobile breakpoint for this blog’s homepage utilizes this, using absolutely positioned text elements as children of an empty relatively positioned container. This allows for a block-level image to be placed in that container, and for the text to then be positioned on top of that, with flexbox declarations used to center it to make it more responsive to the container’s sizing changes, as that in turn is still responsive due to its relative positioning. This is just one example of absolute positioning being used to stack block-level elements, but it has many other interesting uses, for example, <a href="https://codepen.io/lbebber/pen/ypgql/">this</a> awesome glitch effect by Lucas Bebber, done in pure CSS using absolute positioning to stack multiple layers of the same text, created from the :before and :after pseudo-selectors and recoloured, then which parts of are then randomly revealed using a clipping animation.
+                </p>
+                <h2>
+                    Fixed Positioning
+                </h2>
+                <p>
+                    ‘Fixed’ positioning declares an element to be positioned relative to the viewport window, rather than the html document or any other positioned elements. This means that when a user scrolls down through the document, as the viewport does not change, the fixed element’s position does not change. This is most useful for navbars, as it allows them to stay at the top of the viewport as the user browses up and down a page, allowing for easy navigation to different important pages on the navbar without having to scroll all the way back up to the top of the document to find them.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
