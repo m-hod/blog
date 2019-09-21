@@ -4,7 +4,6 @@ const server = express()
 
 const router = require('./routes')
 
-//Middleware
 server.engine('hbs', hbs({
     defaultLayout: 'main',
     extname: 'hbs'

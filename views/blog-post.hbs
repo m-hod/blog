@@ -1,0 +1,43 @@
+<main>
+    <section class="blog__entry">
+        <div 
+            class="blog__entry--container" 
+            style="background: url({{image}}); background-size: 100%"
+        >
+            <h1 class="blog__text--title">
+                {{title}}
+            </h1>
+            {{!-- <p>
+                {{description}}
+            </p> --}}
+        </div>
+        <div class="blog__entry--text">
+            <hr>
+            <h2 class="blog__entry--subheading">
+                {{heading-1}}
+            </h2>
+            <p class="blog__entry--section">
+                {{section-1}}
+            </p>
+            <p class="blog__entry--section">
+                {{section-2}}
+            </p>
+            <h2 class="blog__entry--subheading">
+                {{heading-2}}
+            </h2>
+            <p class="blog__entry--section">
+                {{section-3}}
+            </p>
+            <p class="blog__entry--section">
+                {{section-4}}
+            </p>
+            <p class="blog__entry--section">
+                {{section-5}}
+            </p>
+        </div>
+    </section>
+</main>
+
+{{!-- each - if heading, post that, else post a section - so should loop through them,
+    and post a heading when encountered, otherwise post sections - means these need to
+    be stored in another array - order matters --}}

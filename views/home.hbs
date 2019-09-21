@@ -2,7 +2,10 @@
   {{#each blogs}}
     <article class="blog">
       {{#if rightAligned}}
-        <div class="blog__image--container blog__image--container--sprint1_core">
+        <div 
+          class="blog__image--container" 
+          style="background: url({{image}}); background-size: 100%"
+        >
         </div>
       {{/if}}
       <img class="blog__image" src="{{image}}">
@@ -28,9 +31,13 @@
         </p>
       </div>   
       {{#if leftAligned}}
-        <div class="blog__image--container blog__image--container--sprint2_core">
+        <div 
+          class="blog__image--container" 
+          style="background: url({{image}}); background-size: 100%"
+        >
         </div>
       {{/if}}
     </article>
   {{/each}}
 </main>
+
