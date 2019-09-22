@@ -14,9 +14,6 @@ router.get('/', (req, res) => {
             (i % 2 !== 0)
                 ? blog.rightAligned = true
                 : blog.leftAligned = true
-            // (blog.description.length > 200)
-            //     ? blog.description.substring(0, 200) + " ..."
-            //     : null
         })
         blogsObj.blogs.reverse()
         res.render('home', blogsObj)

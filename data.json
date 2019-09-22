@@ -7,13 +7,23 @@
             "year": "2019",
             "image": "/images/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg",
             "description": "A blog exploring my personal values, strengths, and limitations, and how these will impact my learning and development throughout this course.",
-            "heading-1": "Core Personal Values",
-            "section-1": "One of my core personal values is honesty, as I have damaged people close to me by flirting with the opposite side of this when I was younger, and don’t want to go back to that. I have also found, through experience, that honesty generally gives the best result, even if it may be the more difficult path to take at the time and may not at first appear to be a good option.",
-            "section-2": "An example of this took place in one of my previous workplaces, where one of our roles was to distribute controlled medication to clients. Due to the intricacies around this and the health and safety standards we needed to meet, there were strict procedures we were supposed to take when doing this, most important of all, giving the client exactly what was designated on their medical records. At the time of this example, the shift I was on was extremely busy, and we were understaffed, and there was some confusion with a client’s medication. As there were other clients getting restless demanding attention, instead of taking the time away from things to carefully go through this, I just asked the client what medication he was supposed to get, as I was swamped with demands and just assumed he would know what he was supposed to be taking and just tell me that. At this time, I was still quite naive, as I hadn’t worked with addicts for very long. Suffice to say, the client stated a dose larger than he was supposed to get, and I gave it to him. Thankfully, no negative health impacts resulted from this, but due to this, there was confusion with the medical records the next day, as they were not lining up with what they were supposed to. Seeing this, I came forward to my boss and admitted I must have messed it up, as I hadn’t gone through the right process. He was fairly stern with explaining the right process to me and reiterating why it was so important, but I am glad I did this as it helped set things straight for me and reiterate to me why I need to put following procedures first and foremost, and retrospectively, it was definitely the best choice, as I have heard from an ex-colleague that she did this, and didn’t tell him, and when the records didn’t line up, he went back through the camera records, saw that it was her, pulled her into her office, and yelled at her for a long time. She left it in tears. After multiple instances of this kind of honest ethic, and having to uncomfortably front up several other times for other things during my time in that workplace, I was promoted to one of the highest positions there, which I think was no doubt in no small part due to my straightforward honesty, as there was a lot of responsibility put on me in that position and my boss must have had a huge amount of trust in me to allow me the freedom and self autonomy I had in it.",
-            "heading-2": "Strengths and Limitations",
-            "section-3": "I have taken the Myer Briggs test and this identified me as a Logician (INTP-T).",
-            "section-4": "The strengths highlighted in this that I identify with are being a good analyst and abstract thinker, being imaginative, and being objective. I think these will benefit my learning as they allow me to tackle problems from an analytical perspective, compartmentalizing larger tasks down into manageable chunks and sequentially completing them in order to eventually complete the overall task. This method that I have had to utilize a lot in the past in high workload jobs has helped manage tasks that would at first appear to be insurmountable, but once sectioned off into their own little pieces, become relatively manageable. I think being imaginative also helps as it allows me to find original and unique methods to solve problems; if I am struggling with one way to tackle a problem, I usually don’t have much trouble finding another angle to attack it from. Finally, being objective helps me to remove myself from sometimes emotionally straining situations, and look at them from a calm, observer's perspective. This has helped me in the past to analyse important decisions around difficult clients in my old workplace, and I believe it will help immensely in teamwork environments to help resolve conflicts if and when they may arise.",
-            "section-5": "There were a few particular limitations revealed from the Myer Briggs test that really resonated with me and have stagnated the progression of my personal development for the past several years. These are a pervasive fear of failure and constant second guessing, alongside a cripplingly high level of perfectionism. I have very high standards I set for myself, which are, unfortunately, more idealistic than realistic. This results in me continuously setting lofty goals, because of the expectations of these high standards, and eventually failing to meet these goals because they were set too far out of the reach of myself in reality. This is a descrtructive cycle that demotivates me to meaningfully progress in something I want to develop my skills in, because I start it, set high goals for myself, and then don’t meet those goals, eventually becoming demotivated and giving up. I am aware that to meet such goals, I need to put in a lot of practice to get good enough to achieve them, but at the same time, the lack of immediate progress and the harsh reality of my novice work is often so demotivating I quit long before I am even close to meeting those goals. This results in stagnant progression, because instead of knuckling down and working at something, I will then flee to a different topic, with lofty goals filling my mind with hope again, only to fall into the same destructive cycle, because the core issue is still there. In order to combat this, I really need to focus on two things: developing healthy, productive habits, so that I don’t rely so much on motivation to get me to be productive, and setting SMART goals, goals that are specific, measurable, achievable, relevant, and time-bound. These should help as if a healthy productive habit is developed, then I don’t need to rely on some fickle burst of motivation to do anything; I would be doing it as part of my daily routine anyway, and thus, with enough days elapsed, I would experience some sort of meaningful progression. With SMART goals, these are specifically designed to forward productivity, as they provide the meaningful sense of achievement that is actually realistic to achieve, and so, if managed appropriately, shouldn’t get me stuck in the same destructive cycle as usual."
+            "content": [
+                {
+                    "heading": "Core Personal Values",
+                    "sections": [
+                        "One of my core personal values is honesty, as I have damaged people close to me by flirting with the opposite side of this when I was younger, and don’t want to go back to that. I have also found, through experience, that honesty generally gives the best result, even if it may be the more difficult path to take at the time and may not at first appear to be a good option.",
+                        "An example of this took place in one of my previous workplaces, where one of our roles was to distribute controlled medication to clients. Due to the intricacies around this and the health and safety standards we needed to meet, there were strict procedures we were supposed to take when doing this, most important of all, giving the client exactly what was designated on their medical records. At the time of this example, the shift I was on was extremely busy, and we were understaffed, and there was some confusion with a client’s medication. As there were other clients getting restless demanding attention, instead of taking the time away from things to carefully go through this, I just asked the client what medication he was supposed to get, as I was swamped with demands and just assumed he would know what he was supposed to be taking and just tell me that. At this time, I was still quite naive, as I hadn’t worked with addicts for very long. Suffice to say, the client stated a dose larger than he was supposed to get, and I gave it to him. Thankfully, no negative health impacts resulted from this, but due to this, there was confusion with the medical records the next day, as they were not lining up with what they were supposed to. Seeing this, I came forward to my boss and admitted I must have messed it up, as I hadn’t gone through the right process. He was fairly stern with explaining the right process to me and reiterating why it was so important, but I am glad I did this as it helped set things straight for me and reiterate to me why I need to put following procedures first and foremost, and retrospectively, it was definitely the best choice, as I have heard from an ex-colleague that she did this, and didn’t tell him, and when the records didn’t line up, he went back through the camera records, saw that it was her, pulled her into her office, and yelled at her for a long time. She left it in tears. After multiple instances of this kind of honest ethic, and having to uncomfortably front up several other times for other things during my time in that workplace, I was promoted to one of the highest positions there, which I think was no doubt in no small part due to my straightforward honesty, as there was a lot of responsibility put on me in that position and my boss must have had a huge amount of trust in me to allow me the freedom and self autonomy I had in it."
+                    ]
+                },
+                {
+                    "heading": "Strengths and Limitations",
+                    "sections": [
+                        "I have taken the Myer Briggs test and this identified me as a Logician (INTP-T).",
+                        "The strengths highlighted in this that I identify with are being a good analyst and abstract thinker, being imaginative, and being objective. I think these will benefit my learning as they allow me to tackle problems from an analytical perspective, compartmentalizing larger tasks down into manageable chunks and sequentially completing them in order to eventually complete the overall task. This method that I have had to utilize a lot in the past in high workload jobs has helped manage tasks that would at first appear to be insurmountable, but once sectioned off into their own little pieces, become relatively manageable. I think being imaginative also helps as it allows me to find original and unique methods to solve problems; if I am struggling with one way to tackle a problem, I usually don’t have much trouble finding another angle to attack it from. Finally, being objective helps me to remove myself from sometimes emotionally straining situations, and look at them from a calm, observer's perspective. This has helped me in the past to analyse important decisions around difficult clients in my old workplace, and I believe it will help immensely in teamwork environments to help resolve conflicts if and when they may arise.",
+                        "There were a few particular limitations revealed from the Myer Briggs test that really resonated with me and have stagnated the progression of my personal development for the past several years. These are a pervasive fear of failure and constant second guessing, alongside a cripplingly high level of perfectionism. I have very high standards I set for myself, which are, unfortunately, more idealistic than realistic. This results in me continuously setting lofty goals, because of the expectations of these high standards, and eventually failing to meet these goals because they were set too far out of the reach of myself in reality. This is a descrtructive cycle that demotivates me to meaningfully progress in something I want to develop my skills in, because I start it, set high goals for myself, and then don’t meet those goals, eventually becoming demotivated and giving up. I am aware that to meet such goals, I need to put in a lot of practice to get good enough to achieve them, but at the same time, the lack of immediate progress and the harsh reality of my novice work is often so demotivating I quit long before I am even close to meeting those goals. This results in stagnant progression, because instead of knuckling down and working at something, I will then flee to a different topic, with lofty goals filling my mind with hope again, only to fall into the same destructive cycle, because the core issue is still there. In order to combat this, I really need to focus on two things: developing healthy, productive habits, so that I don’t rely so much on motivation to get me to be productive, and setting SMART goals, goals that are specific, measurable, achievable, relevant, and time-bound. These should help as if a healthy productive habit is developed, then I don’t need to rely on some fickle burst of motivation to do anything; I would be doing it as part of my daily routine anyway, and thus, with enough days elapsed, I would experience some sort of meaningful progression. With SMART goals, these are specifically designed to forward productivity, as they provide the meaningful sense of achievement that is actually realistic to achieve, and so, if managed appropriately, shouldn’t get me stuck in the same destructive cycle as usual."
+                    ]
+                }
+            ]
         },
         {
             "id": 2,
@@ -21,7 +31,91 @@
             "month": "06/07",
             "year": "2019",
             "image": "/images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg",
-            "description": "My learning plan. Outlines long-term goals, strengths, weaknesses, and the commitments I will need to make to utilize these to meet these goals."
+            "description": "My learning plan. Outlines long-term goals, strengths, weaknesses, and the commitments I will need to make to utilize these to meet these goals.",
+            "content": [
+                {
+                    "heading": "Long Term Goals",
+                    "sections": [
+                        "I want to move into the career of programming, and so I am starting with web development. Ideally, I would like to be a self-employed contractor, or have flexible distance work, but these are end-goals. For now, I want to get a job from this programme and learn from senior colleagues and work my way up from there, until one day perhaps I will have the skills to be able to manage self-employment."
+                    ]
+                },
+                {
+                    "heading": "Skills to Develop (Non-Technical)",
+                    "sections": [
+                        "I’d like to make more friends, as my social circle is quite small, and I haven’t made many attempts to expand this since high school. With most of my friends living in different cities now, I would like to make some new meaningiful relations with new people and have friends in the same city I’m in."
+                    ]
+                },
+                {
+                    "heading": "Strengths and Limitations",
+                    "sections": [
+                        "I think my strengths are that I am a logical thinker, and am good at breaking tasks down and completing them that way. I think my main weakness would be my attention span, years of content consumption on Youtube and Twitch has ruined my attention span and ability to focus for lengthy periods of time. I am slowly working on building this back up, but it is still something I struggle with. Self-discipline is another weakness that ties into this quite closely. I would like to develop healthy, productive habits to help with this, which I hope would then help me become more disciplined."
+                    ]
+                },
+                {
+                    "heading": "Workload Management & Commitment",
+                    "sections": [
+                        "I will develop a schedule I will need to stick to religiously in order to develop the habits I need to succeed. It has been found that it takes about 2 months to develop new habits, so I will need to commit myself to this for at least that period of time. I will be trying to develop this prior to starting the in-person portion of the bootcamp, and will be continuing it for the entire period of it. If I can succeed in this, this would be an incredible feat for me and I believe would change my life around, as I have struggled with poor habits for years that have prevented me from meeting my goals, so if I can change these around they would have a significant positive impact on my life."
+                    ]
+                },
+                {
+                    "heading": "How to Seek Help",
+                    "sections": [
+                        "I will seek help from staff when I need it, after attempting the problems myself to the best of my ability. If things are getting on top of me and I am beginning to panic, which I will know when, as it is a very familiar feeling to me, I will engage with staff to help sort through this."
+                    ]
+                },
+                {
+                    "heading": "Expectations",
+                    "sections": [
+                        "I expect staff to be able to work through the issues with me and help me come to an appropriate plan for them. I know the issues will be ultimately up to me to solve, so I just hope that if I can’t figure this out myself, they will be able to help walk it through with me."
+                    ]
+                },
+                {
+                    "heading": "Scheduling Information",
+                    "sections": [
+                        "I currently don’t have any commitments I would need to schedule around, and plan to keep these empty for the duration of the bootcamp. If there are times when I do not show up to class, they will be entirely up to laziness or poor habits, which I should be called out on immediately."
+                    ]
+                },
+                {
+                    "heading": "Update 22/07"
+                },
+                {
+                    "heading": "Long Term Goals",
+                    "sections": [
+                        "This hasn’t changed, I still want to move into a career in programming, and think any junior role would be an enjoyable, solid job to start with. This is my primary goal right now and I’m not thinking about past this too much, but there are few options I am considering: either moving into self-employment contract work, or moving into the game development space."
+                    ]
+                },
+                {
+                    "heading": "Strengths and Limitations",
+                    "sections": [
+                        "I still think my strengths and limitations are mostly the same, these aren’t something that will change over the course of 5 weeks. This period of time did however make me a little more confident in my strengths, as I didn’t struggle much at all, where I thought I would have in the later weeks. At the same time though however, it also reminded me that my limitations are significant and will take a long time with persistent effort to overcome, as I was unable to fall into the healthy habits I had wanted to begin cultivating during this time."
+                    ]
+                },
+                {
+                    "heading": "Biggest Non-Technical Challenges",
+                    "sections": [
+                        "Since it is mentioned in the explanation material here in Sprint 5, I think my biggest challenge will be speaking in front of a group - this is not something I enjoy at all and have always struggled with, and seeing it suggested here is fairly demoralizing."
+                    ]
+                },
+                {
+                    "heading": "Skills to Develop (Non-Technical)",
+                    "sections": [
+                        "I guess I would like to improve in-person communication skills, I know these suffer when I spend long periods of time in isolation like this 5 weeks have been so I expect them to be fairly poor again by the time bootcamp starts, so will need to work on getting used to this again."
+                    ]
+                },
+                {
+                    "heading": "Expectations",
+                    "sections": [
+                        "Expectations are mostly the same, though with the introduction of peer programming and the mention of public speaking, I hope the team will be understanding of all personality types and accommodating to them by allowing some flexibility here."
+                    ]
+                },
+                {
+                    "heading": "Expectations for Myself",
+                    "sections": [
+                        "I expect myself to continue to hold an open mindset and to try everything with this mindset, rather than disregarding it beforehand and then going into it with a negative mindset which would just create a self-fulfilling prophecy.",
+                        "I will manage my workload by dedicating the required amount of time each day, to show up to class with a good mindset, and to be open and receptive when working with others."
+                    ]
+                }
+            ]
         },
         {
             "id": 3,
@@ -29,7 +123,38 @@
             "month": "07/07",
             "year": "2019",
             "image": "/images/pankaj-patel-6JVlSdgMacE-unsplash.jpg",
-            "description": "A blog about CSS positioning properties and how they can be used. Explores static, relative, absolute, and fixed positioning, as well as the properties that are commonly shared between them, such as the z-index and manual positioning properties."
+            "description": "A blog about CSS positioning properties and how they can be used. Explores static, relative, absolute, and fixed positioning, as well as the properties that are commonly shared between them, such as the z-index and manual positioning properties.",
+            "content": [
+                {
+                    "sections": [
+                        "CSS positioning properties are incredibly useful aspects of the language that enable custom-tailored positioning of elements within the document. This allows users to interact with an elements position in the normal document flow, or remove it from the flow entirely and position it in isolation from other elements. This also allows manipulation of both the X and Y axis’, and a newly introduced Z axis to enable element stacking with pure CSS. These are done by declaring the position of an element with the property ‘position: ‘, followed by one of the four following values: ‘static’, ‘relative’, ‘absolute’, or ‘fixed’. The element can then be manually shifted by assigning unit values to the ‘top’, ‘right’, ‘bottom’, or ‘left’ properties that are available to be used on a positioned element. Of note, when using these, the element will shift in the opposite direction of the declared property, as it is like putting an invisible margin on that side of the element. For example, a declaration of ‘top: 10px’ will shift an element down ten pixels, as if a margin-top of 10px had been declared. Positioned elements then also have the option of being stacked with a unitless declaration of the ‘z-index’ property, which determines the element’s ‘depth’ in the document. Elements of a higher z-index value will display in front of elements with a lower declared z-index, so for example, given two identical elements placed in the same space, if element A is a positioned element (which it must be if one of them has been removed from the document flow to be able to be stacked on top of the other), and has declared ‘z-index: 2’, and element B, which is also a positioned element, has declared ‘z-index: 1’, element A will be displayed over the top of element B."
+                    ]
+                },
+                {
+                    "heading": "Static Positioning",
+                    "sections": [
+                        "‘Static’ is the default value of a position property in CSS, and means an element is not a ‘positioned’ element. Manually declaring it usually won’t change much, and in fact would be an affront to the law of DRY if done without an explicit purpose, but it is important to know as if another position value has been unintentionally applied to an element, from for example, a shared class, then declaring ‘position: static’ on that element would forcibly reset it back to it’s normal unpositioned state (assuming specificity and inheritance mean that declaration overrides the declaration from the shared class)."
+                    ]
+                },
+                {
+                    "heading": "Relative Positioning",
+                    "sections": [
+                        "‘Relative’ positioning is the first real position declaration, and declared an element to be a ‘positioned’ element. On the surface, it may appear to have a very similar effect to declaring static position, that is, none, but this declaration does much more than that under the surface. Firstly, declaring an element to be positioned allows the use of the ‘top’, ‘right’, ‘bottom’, and ‘left’ manual position declarations, as previously mentioned. In a ‘relatively’ positioned element, these will shift the element relative to itself, that is, its original position in the document’s flow. For example, if the element was positioned at Y=50px and X=50px, and a declaration of ‘top: 10px’ was made, the element would shift down 10px relative to its normal position, giving it a new position of Y=40px and X=50px. Secondly, since the element has now been ‘positioned’, z-index manipulation is now possible, and so a z-index declaration can be made to position the element in front of others. By default, declaring a z-index value will position the element in front of any statically positioned elements, even if one of those has a z-index declaration of higher than the relatively positioned element, as statically positioned elements cannot access the z-index. It is however possible to place positioned elements underneath statically positioned elements with a negative z-index declaration, here the statically positioned element still does not interact with the z-index, but the positioned element does, and thus positions behind the static element. Finally, declaring an element to be positioned allows for a unique interaction with absolutely positioned elements that is not possible with non-positioned elements, which will be explained in the next section."
+                    ]
+                },
+                {
+                    "heading": "Absolute Positioning",
+                    "sections": [
+                        "‘Absolute’ positioning declares an element to be removed from the normal document flow and be positioned anywhere, absolutely. Whereas a relatively positioned element will still interact with the document flow, with its position manipulated by the positions of other surrounding elements, and it in turn manipulating the position of those elements, an absolutely positioned element will ignore both of those interactions completely, not being affected by the positions of other elements, and in turn not affecting their positions. By default, declaring an element to be absolutely positioned will reset it’s position all the way back up to the highest level element of the document, the html element. Like any other positioned element, this can then be manually positioned with the ‘top’, ‘right’, ‘bottom’, and ‘left’ properties, however absolutely positioned elements have an important interaction with relatively positioned elements that allow some incredibly powerful positioning techniques. If another positioned element is a parent of an absolutely positioned element, rather than resetting its position back to the highest level element, it will look for the nearest positioned parent element. This means that if an absolutely positioned element is a child of a relatively positioned element, rather than resetting back to the html document origin, it will reset to the positioned element’s origin. This interaction means that relatively positioned parent elements can be utilized as containers for absolutely positioned elements, which opens the way to a vast amount of responsive styling options. As an example, the mobile breakpoint for this blog’s homepage utilizes this, using absolutely positioned text elements as children of an empty relatively positioned container. This allows for a block-level image to be placed in that container, and for the text to then be positioned on top of that, with flexbox declarations used to center it to make it more responsive to the container’s sizing changes, as that in turn is still responsive due to its relative positioning. This is just one example of absolute positioning being used to stack block-level elements, but it has many other interesting uses, for example, https://codepen.io/lbebber/pen/ypgql/ this awesome glitch effect by Lucas Bebber, done in pure CSS using absolute positioning to stack multiple layers of the same text, created from the :before and :after pseudo-selectors and recoloured, then which parts of are then randomly revealed using a clipping animation."
+                    ]
+                },
+                {
+                    "heading": "Fixed Positioning",
+                    "sections": [
+                        "‘Fixed’ positioning declares an element to be positioned relative to the viewport window, rather than the html document or any other positioned elements. This means that when a user scrolls down through the document, as the viewport does not change, the fixed element’s position does not change. This is most useful for navbars, as it allows them to stay at the top of the viewport as the user browses up and down a page, allowing for easy navigation to different important pages on the navbar without having to scroll all the way back up to the top of the document to find them."
+                    ]
+                }
+            ]
         },
         {
             "id": 4,
@@ -37,7 +162,28 @@
             "month": "10/07",
             "year": "2019",
             "image": "/images/art-by-lonfeldt-gKlnwCvghTU-unsplash.jpg",
-            "description": "A blog exploring emotional intelligence, what it is, the various models that seek to map it, and comparisons to more traditional views of intelligence in the form of the intelligence quotient."
+            "description": "A blog exploring emotional intelligence, what it is, the various models that seek to map it, and comparisons to more traditional views of intelligence in the form of the intelligence quotient.",
+            "content": [
+                {
+                    "heading": "What is Emotional Intelligence?",
+                    "sections": [
+                        "Emotional Intelligence is the ability to monitor both your own and other people’s emotions, to identify different emotions, discern between different emotions, and use that knowledge, both of your own and other’s emotions, to guide your thinking, behaviour, and decision making. The simplest form of this definition would be that emotional intelligence consists of four abilities: perceiving, using, understanding, and managing emotions. These abilities make up the basis of various models that have been developed to map Emotional Intelligence, the first and most prevalent of which is the Ability Model. This model holds a broad view of emotions as sources of information, that someone with a high emotional intelligence quotient is able to utilize to successfully navigate the social environment. Other models view emotional intelligence in more narrow, focused ways, like the Mixed Model, which focuses on it purely in the domain of leadership, that it consists of competencies that purely drive leadership skills and all the management of emotions that these entail, or the Trait Model, which sees it to be a skill based on self perceptions defined by aspects of one’s own personality traits, moving further away from emotions in their raw form and more into a holistic view of their interactions with the individual’s predetermined traits. Regardless, all three of these models recognize the importance of emotion management, in both the individual and those around them, and highlight the benefits of developing a high emotional intelligence quotient."
+                    ]
+                },
+                {
+                    "heading": "Differences between Emotional Intelligence and the Intelligence Quotient",
+                    "sections": [
+                        "The Intelligence Quotient differentiates from the Emotional Intelligence Quotient by focusing more on technical skills, logical reasoning, word comprehension, mathematics, and abstract and spatial thinking, along with the ability to filter irrelevant, distracting information that may dilute attention away from the task at hand, as such mentally demanding tasks often require extended periods of highly focused attention to complete. Emotional Intelligence, on the other hand, focuses more on human skills, the ability to identify, evaluate, control, and express emotions, as well as perceiving and assessing others emotions, and using this emotional awareness to facilitate one’s thinking and understand emotional needs and meanings, of both the self and others.",
+                        "As such, scoring highly on either of these skills indicates vastly different types of success, due to their fundamentally different focuses. Emotional Intelligence, due to its focus on a broad spectrum of interpersonal skills, has been found to predict success in teamwork, leadership, and personal relations, whereas the Intelligence Quotient, most likely due to it’s razor sharp focus on highly technical skills, predicts success in challenging technical tasks, analysis and connectivity, and research and development."
+                    ]
+                },
+                {
+                    "heading": "Why is it Important?",
+                    "sections": [
+                        "A good emotional intelligence quotient is beneficial to any workplace, as people are social creatures, and the ability to manage both oneselves emotions and those of others in the social environment will never prove useless. It is, in fact, a more rare occurrence that someone would need to work in isolation than working with others, and as such, it if often more desirable to have those of a higher emotional intelligence, than a higher intelligence quotient, if there were some circumstance where they were exclusive from each other, in order to better facilitate a healthy teamwork environment, and, as a result of such, prompt more fluid cooperation and thus, higher productivity."
+                    ]
+                }
+            ]
         },
         {
             "id": 5,
@@ -45,7 +191,39 @@
             "month": "14/07",
             "year": "2019",
             "image": "/images/markus-spiske-xekxE_VR0Ec-unsplash.jpg",
-            "description": "A blog exploring the roles of HTML, CSS, and Javascript, as well as logical concepts within Javascript, through real-world analogies. More technical concepts like the DOM, Arrays, Objects, and Functions are also explored."
+            "description": "A blog exploring the roles of HTML, CSS, and Javascript, as well as logical concepts within Javascript, through real-world analogies. More technical concepts like the DOM, Arrays, Objects, and Functions are also explored.",
+            "content": [
+                {
+                    "heading": "The Relationship between HTML, CSS, and Javascript",
+                    "sections": [
+                        "HTML, CSS, and additionally Javascript, can be analogous of the makeup of a human, splitting it into three core parts, the skeleton, the muscles, and the clothes that we adorn to make us unique. HTML takes the role of the bones here, laying the groundwork for which everything else is built upon. Without the bones, we would not be able to take the rigid shape that characterizes us as bipedal creatures, and would not have the base foundation upon which everything else, like the muscles and clothes, are built upon. In the same fashion, without HTML, websites would not be able to take the shape of websites, and thus this language serves as the base framework that creates the underlying website structure, upon which everything else is built on top of. Javascript takes the roles of the muscle here, giving functionality to the body. Without the muscles, the bones would be static, unable to move, and we would in no way have been able to develop into the most complex form of life to exist on this planet to date. In the same way, Javascript provides functionality to a website, allowing it to flourish and become a complex creation with a vastly diverse array of uses that HTML alone could never provide. Finally, CSS takes the role of clothes here, like the clothes a human adorns to give themselves a unique appearance over top of the muscles and bones, styling the HTML and Javascript. Without clothes, humans would have difficulty expressing their individuality that comes with their infinitely complex brains, and would look all too similar to other similar makeups of muscle and bone compatriots. In the same way, without CSS, websites made up of pure HTML and Javascript would all look like uniform plain-text. With clothes, humans are able to dress themselves up in all kinds of flamboyant fashion, distinguishing themselves from the crowd to express their uniqueness, and all the same, with CSS, websites are able to style themselves to look unique from the rest and develop their own personal style that will help them stand out and be recognizable in the mass of other websites across the net. As how all three of these elements are required to make up a unique human, all three of these are required to make up a unique website, and thus, they all exist in cooperation with each other, each relying on the other to build a complete whole."
+                    ]
+                },
+                {
+                    "heading": "Control Flow and Loops in Real Life",
+                    "sections": [
+                        "Control flow and loops can be explained by examining the life of Salaryman Tanaka. Mr. Salaryman Tanaka must follow a strict schedule to meet the expectations of his workplace, and thus has developed habits he religiously follows every day. He wakes up in the morning, has a shower, has breakfast, brushes his teeth, then goes off to work, where he works all day, before coming home, picking up dinner from the convenience store on the way back, eating it when he gets home, then going to bed. Everything is in this strict order, with no deviation in between, and unfortunately for him, because he works in a black company, he does this every day of the week, and every week of the year. This is a real world demonstration of control flow and looping. Control flow dictates the flow in which lines of code execute, in sequential order down the page (given that they are in the same scope), which can be seen in Salaryman Tanaka’s rigid, sequential progression through his actions each day, doing each one in order, in the same order, every day. This in turn also demonstrates looping, Salaryman Tanaka does the same thing every day, with no deviation, and thus is looping like a loop in code would, executing the same lines of code, the same actions, with no deviation (unless specified with something like increments, for example) until the loop is finished. Like Salaryman Tanaka is doomed to proceed through the loop for the rest of his days as he fell prey to a black company, beware of infinite loops, as they will crash the code you are working on. Always make sure to implement a stopping point, so that you don’t end up like Salaryman Tanaka, lost in the misery of an infinite loop."
+                    ]
+                },
+                {
+                    "heading": "The DOM (Document Object Model)",
+                    "sections": [
+                        "The DOM is the interface in which code interacts with the browser. It represents the browser page, the ‘document’, in ‘objects’ and nodes, thus making up the ‘Document Object’ Model. In this way, the browser page can then be interacted with through its representation, the DOM, via Javascript that modifies the values of the objects and nodes, and thus, the elements stored within them, allowing changes to the structure, style, and content of the webpage through this method. An example of this can be demonstrated through the use of a query selector, which ‘queries’ the identified elements of the DOM and selects them, allowing their modification. These can then be modified through the setting of new properties or attributes, which will thus change the values of those selected elements in the document. As a practical example to demonstrate this, if a document contains an h1 element with the class name class=”blue”, which has already been styled blue, querySelector(“.blue”) can then be employed to select the h1 element (and all other elements with the class “blue”). The innerHTML property can then be appended onto this selector to define new HTML content, which will replace the HTML content of the selected element. In this case, querySelector(“.blue”).innerHTML = “New Title” would select the h1 element and change its HTML content so that it now displayed “New Title” instead of whatever it’s old content may have been."
+                    ]
+                },
+                {
+                    "heading": "Arrays & Objects: Data Access",
+                    "sections": [
+                        "Accessing data from arrays and objects has both similarities and differences. Both use some kind of notation, but the interactions between these are different for each. The first kind of notation, that which is shared between both arrays and objects, is bracket notation, which involves placing a selector in square brackets after calling the array or object (eg: array[selector] or object[selector]), and will then return the corresponding value of that selector in the object or array. In the case of arrays, this selector must be an index value, which will then return the item placed in the corresponding index in the array. For example, given an arrayName = [“cat”, “dog”, “mouse”], using bracket notation, we can get the return value of “dog” by using arrayName[1], as the item corresponding to the index value of ‘1’ is “dog” (remembering that index’s start from 0). Values from an object can be accessed in a similar way, however, since the key-value pairs in an object carry no inherent order, an index value cannot be used for this. Instead, a string containing the name of the key in the key-value pair in the object must be passed into the square brackets, which will then return the corresponding value for that key. For example, given an objectName = {“animal”: “cat”, “location”: “indoors”, “food”: “tuna”}, using bracket notation, we can get the return value of “indoors” using objectName[“location”], as the value corresponding to the key property called is “indoors”. In the same way, a new kind of notation, dot notation, can be used. This simplifies the syntax and makes it easier to read, using a dot followed by the key property, rather than square brackets. Using dot notation, the previous example can be refactored into objectName.location, returning the same value with much more simple and readable syntax. It is important to note that dot notation cannot be used with arrays, only bracket notation, as the index value must be passed in there. Also, when used with objects, dot notation is lacking one of the important functionalities of bracket notation allows: passing in key properties that are subject to change, or are not defined until an argument is passed in. This is important when a function contains an argument that is passed into a call for a return value from an object, which is incompatible with dot notation, but is allowed with bracket notation. The only changes here are that the value is not enclosed in quotation marks, as it is not a string, it is passing in the value of the corresponding argument (which should itself be a string). This allows for adaptive calls for a return value in the object based on the arguments passed into the function the call is contained within. Finally, another piece of data that may be accessed from an object is the name of the key property itself. As passing in the name of the property itself will return the value of that property, how does one return the name of the property itself in the case where this may be wanted? This is where the built in hasOwnProperty() method can be useful. While it does not return the value of the property name itself, the property name, contained within quotation marks, can be passed into the method, which will then check the object, returning a boolean value if the property is present (true) or not (false). This can be useful if the user needs similar functionality to what returning the name of the key property itself would be, but cannot otherwise directly do this."
+                    ]
+                },
+                {
+                    "heading": "Functions",
+                    "sections": [
+                        "Functions are self-contained snippets of code that execute only when the function is called, and only within the scope of the function itself. They are extremely useful due to these two factors, they can be conditionally executed, so that all code in a document is not all run at once, which would break everything, and they can execute in isolation from other pieces of code that may interfere with their procedure. They can also return certain values outside of their scope, back into a higher function or into the main document, which can be handy for further purposes. Basically, functions are what make Javascript, and in turn, websites, ‘function’, as stupid as that is to say."
+                    ]
+                }
+            ]
         },
         {
             "id": 6,
@@ -53,7 +231,47 @@
             "month": "15/07",
             "year": "2019",
             "image": "/images/david-clode-75CxJTYeUYs-unsplash.jpg",
-            "description": "A blog outlining the principles of Neuroplasticity and how the brain learns, develops, and operates with this system. The benefits of a Growth Mindset, compared to a Fixed Mindset, are also explored, as well as how both the principles of Neuroplasticity, and the benefits of maintaining a Growth Mindset, can be applied in my Learning Plan."
+            "description": "A blog outlining the principles of Neuroplasticity and how the brain learns, develops, and operates with this system. The benefits of a Growth Mindset, compared to a Fixed Mindset, are also explored, as well as how both the principles of Neuroplasticity, and the benefits of maintaining a Growth Mindset, can be applied in my Learning Plan.",
+            "content": [
+                {
+                    "heading": "The Principles of Neuroplasticity and their Benefits",
+                    "sections": [
+                        "Neuroplasticity is the ability for the brain to be malleable and adapt to different uses, and prolonged engagement with a particular use will prompt development in that area to make the brain more effective at engaging in that use case. For example, engaging with a specific task, say, calculation, will engage the neural networks involved in that kind of technical thinking, and thus, through prolonged engagement with similar tasks, those neural networks will stay active longer, and in turn, begin to develop and grow in order to make the brain able to more effectively complete such tasks. This highlights some of the biological changes behind the process of learning, that physical changes occur in the brain to adapt to learnt behaviour and thinking patterns, in order to make those actions easier in the future, as the brain has ‘learned’ them through its physical adaptations. Understanding these principles allows one to make the best use of them, as an underlying knowledge of how the brain learns will encourage an individual to adapt their learning strategies to accommodate this. This means that, rather than being demotivated by a lack of instant gratification from not learning something straight away, or relying on rote memory strategies to try and remember something, they can instead pursue learning strategies that deliberately target the brain's ability to grow through prolonged engagement, and as a result of this, benefit more when this pays off."
+                    ]
+                },
+                {
+                    "heading": "Utilizing the Principles of Neuroplasticity",
+                    "sections": [
+                        "These principles can be engaged through the development of habits which aim to frequently and consistently engage the targeted neural networks through habitual attempts at challenges in these areas. For example, if one undertook the habit to code an hour a day, every day, with an additional goal to complete at least one challenging task within this hour of code, the individual would be engaging these neural networks regularly and frequently, and through prolonged pursuit of this habit, they would begin to develop and make the brain more effective at completing the tasks. This utilization actually goes hand in hand with habits and supports their effectiveness from a biological basis, as the pattern here is mimicked between the two: prolonged, regular engagements with an activity develops it into a habit, which in turn makes it easier to continue to do, a real world, behavioural reflection of the pattern of development neural networks follow."
+                    ]
+                },
+                {
+                    "heading": "Neuroplasticity Development",
+                    "sections": [
+                        "Utilization of the principles of Neuroplasticity is the same as development of it, through engagement with learning strategies that utilize neuroplasticity, one is in turn developing their neuroplasticity. Some more specific strategies to develop neuroplasticity overall, and not just in the particular area a certain task may engage, are practicing holistic thinking, engagement with FLOW, pursuit of novelty and meditation. Practicing holistic thinking can help develop neuroplasticity as the brain is separated into two hemispheres, each of which predominantly governs certain types of thinking, and many people tend to fall in identifying with and mainly utilizing just one of these, rather than using both to their full potential. Holistic thinking, on the other hand, deliberately attempts to engage both hemispheres, and through this, thus develops global neuroplasticity throughout the brain. An example of how to practically do this would be to learn how to play an instrument, as the process of learning the cords and how to appropriately produce sounds engages the analytical hemisphere, while the creativity that comes with and is elicited from music engages the more creative hemisphere. Practicing FLOW also develops neuroplasticity, though in a more focused, concentrated area, rather than holistically. FLOW is the state of consciousness where one is fully immersed in the task at hand, so much so that time may seem to flow by without notice, and all outside distractions are forgotten. Flow also incorporates both hemispheres of the brain, and narrows them down to focus solely on the task at hand, giving a kind of ‘tunnel vision’, razor sharp focus on the current tasks, and thus, increased engagement with the neural networks involved. Finally, novelty can also help develop neuroplasticity, and this is required to mediated the suggestions of habits discussed earlier in this blog. Neuroplasticity involves restructuring the brain, which can often mean overwriting previous neural pathways with newer, more efficient ones for the task at hand. This means that habits, while they can be beneficial to the development of neuroplasticity if used wisely, can also be detrimental if one falls into a daily routine where they are comfortable and just on autopilot, and not consistently challenging themselves. If they are not, it becomes more difficult to overwrite old neural pathways with newer ones, and so the development of new skills can be incredibly difficult. As such, novelty should be consistently pursued, so that the brain does not become too entrenched in habits to the point where it no longer needs to be challenged on a day to day basis. This is, again, not to say that habits cannot be beneficial, it just highlights the importance of a habit of consistent challenge, rather than a habit of the completion of a task that does not necessarily stimulate the brain in any meaningful way.",
+                        "Many of the suggestions in this section come from the article “How to Increase Neuroplasticity”, retrieved from http://siimland.com/how-to-increase-neuroplasticity/"
+                    ]
+                },
+                {
+                    "heading": "The Growth Mindset and its Relevance",
+                    "sections": [
+                        "Growth Mindset is the idea that through scientifically backed positive reinforcement of an individual’s innate potential to grow and learn, they are, in turn, able to develop more than if they were to retain a fixed mindset that their abilities and potential are static due to insurmountable predetermined biological differences. By opening awareness to the potential of the brain and demonstrating that scientific evidence points towards biological differences being malleable and thus able to be actively worked on and improved upon, positive reinforcement focusing on this potential is in turn supported to directly counteract fixed mindsets that can cause students to avoid learning and development because of preconceived notions that they will be unable to achieve due to rigid biological differences. This creates a highly effective approach to promoting student learning and the individual’s own innate potential, regardless of biological differences, and has given results that indicate a strong correlation towards increased development compared to regular reinforcement strategies."
+                    ]
+                },
+                {
+                    "heading": "Surprises and Changes in this Exploration",
+                    "sections": [
+                        "This exploration was not a surprise, as I have extensive experience in the field of Psychology, but it was a good reminder, as despite the prior clause, I have difficulty remembering many of the things I learned in this field until they are presented before me again. There was however, a realization in this exploration: that I frequently fall into a fixed mindset, which seems to have actively contributed to my avoidance of continued dedication to learning of certain subjects I have tried picking up in the last few years. Often, I fall into the pattern of becoming interesting in learning something, starting out at it, and being disappointed with the quality of my work in that field. From this, I become demotivated and often just give up further learning in that field, moving to another instead to eventually repeat the pattern. I have realized that this is most likely due to a fixed mindset operating in the background, that may be telling me that this is all I will ever amount to in that field, and so I should just give up and move to something I might be better in. Rather than looking at my progress as a ‘not there yet’, I just see it as a complete failure, and then run away from the learning process. Instead, I should attempt to deliberately engage with a growth mindset, and look at my progress as part of the learning process, and adapt the ‘not there yet’ perspective to any results that may turn out disappointing to me."
+                    ]
+                },
+                {
+                    "heading": "Integration of the Growth Mindset into the Learning Journey",
+                    "sections": [
+                        "An awareness of the power of this mindset, and the power of the detrimental effects of the fixed mindset, is already an integration of the principles of both into my learning journey, as simple awareness highlights the importance of incorporating the former and avoiding entrapment from the latter. The growth mindset also highlights the importance of positive reinforcement, as this must be combined with the awareness of innate potential to be most effective, so I will be reminding myself of this throughout my learning journey and attempting to keep a positive, optimistic mindset, as this will help my growth the most. While it is very easy to slip into an overly pessimistic, negative mindset that is incredibly self-critical, I need to also remember that this will only be detrimental to my development, so should avoid this as much as possible to continue learning in the most effective way possible.",
+                        "A resource that was particularly motivating for the incorporation of the Growth Mindset in my learning journey is “The Habits of Successful People”, retrieved from https://buffer.com/resources/the-habits-of-successful-people-they-have-a-growth-mindset"
+                    ]
+                }
+            ]
         },
         {
             "id": 7,
@@ -61,7 +279,22 @@
             "month": "18/07",
             "year": "2019",
             "image": "/images/joshua-coleman-fXls-tVemno-unsplash.jpg",
-            "description": "A blog exploring the implementation of pseudocode to combat difficult tasks and chronic procrastionation habits, as well as an outlining of my understanding of the Rubber Ducky Method."
+            "description": "A blog exploring the implementation of pseudocode to combat difficult tasks and chronic procrastionation habits, as well as an outlining of my understanding of the Rubber Ducky Method.",
+            "content": [
+                {
+                    "heading": "Storytime: Pseudocode and Procrastination",
+                    "sections": [
+                        "In the previous sprint (Sprint 3), while working through the Javascript course on FreeCodeCamp, there were several occasions at the end of sections where an exercise was introduced that would unexpectedly significantly ramp up the difficulty. What had previous felt like smooth and comfortable progression then felt like suddenly running into a brick wall, and required intensive problem solving to eventually reach a solution. The problem solving technique I utilized in these instances was that of pseudocoding, as this was the most familiar to me. Through writing out the exercises into steps, outlining what each step should do in pseudocode, I was able to break down what had initially felt to be an overwhelming, large, and confusing task, into a few easy steps to follow and implement. In this way, I was able to smoothly get through these more difficult exercises despite the sudden jumps in difficulty; while they definitely took more time and thought, and quite some troubleshooting, they were not something I got stuck on for a long time because of these techniques employed.",
+                        "At first, when I encountered these tasks, I immediately wanted to put them off for the next day, as I have a habit of chronic procrastination, so as soon as I come up against something difficult, or anything that requires some modicum of concentrated thought really, I immediately have a gut reaction to put it off for ‘future me’ to deal with, even while knowing that the future me will have no more inclination to do it than the current me. Like this, I have placed a lot of stress on myself in the past by putting things off until they physically cannot be stalled any longer, and thus squeezing them in at the last minute, with a lot of hypothetical hairs lost from the immense worry this generates. However, this time, I instead took a small break to clear my mind and trick the desire to procrastinate into temporarily being satisfied that I had avoided the difficult task, before coming at these exercises again, this time following the logical steps of the problem solving technique previously mentioned, pseudocoding. This allowed me to look at the task in smaller, manageable chunks rather than the large abstract task it initially appeared to be, and thus significantly decrease the perceived difficulty, meaning that as the desire to procrastinate increases or decreases based on difficulty, it was also reduced. I was then able to actually leisurely work through and complete the tasks this way, instead of stressing myself out and delaying them until the latest possible time to complete like I would normally do."
+                    ]
+                },
+                {
+                    "heading": "Problem Solving Techniques: The Rubber Ducky Method",
+                    "sections": [
+                        "The Rubber Ducky Method is a method of debugging code, or general problem solving, where an individual must formulate their question to an inanimate object, a rubber duck in the popular case, before asking it of anyone else. In this way, because the act of formulating the question, given that it is a coherent, competent, and well informed question, requires that the individual systematically works through the issue again themselves, and at the same time, looks at the issue from a different perspective, they are often able to come to the answer themselves through this perspective. It also helps if the individual posing the question is working through the code and observing what it does at the same time, as if they are doing this, any incongruencies between what they are saying and understanding it should do, and what it is actually doing, should become apparent, which wherein often lies the problem to be solved. This is an excellent problem solving skill that can be done both on one’s own, to try to work through something as much as possible without disrupting anyone else, but also can help in tandem with a colleague or senior who would then be posed the already well-formulated question in the event that the process of it’s formulation failed to bring about the desired solution."
+                    ]
+                }
+            ]
         },
         {
             "id": 8,
@@ -69,7 +302,42 @@
             "month": "22/07",
             "year": "2019",
             "image": "/images/leio-mclaren-leiomclaren-e1AtwT_cGPU-unsplash.jpg",
-            "description": "An exploration of the impact of the core material from Foundations."
+            "description": "An exploration of the impact of the core material from Foundations.",
+            "content": [
+                {
+                    "heading": "Personal Findings",
+                    "sections": [
+                        "I have a degree in Psychology and am in a constant state of self exploration, both of which seemed to be the main fields the core content explored, so it is a bit difficult to identify three new things I learned, but it was a good refresher on many concepts so I will cover those here.",
+                        "Firstly was the impact of negativity and pessimism, linking in closely to fixed vs growth mindsets. A constantly negative mindset as put me squarely into a fixed mindset that has prevented me from growing significantly over the last few years, and this was a good reminder of this for me - the differences between these mindsets is no new concept, but remembering their importance, and linking this in to my own experiences, has helped refresh me on the importance of not falling into the fixed category.",
+                        "Second, and what I had already suspected to be the case, is something relating to neuroplasticity: as I have been working for the past few years, studying again for long periods of time has proved to be fairly difficult, which neuroplasticity would indicate is from not using those parts of my brain for a long period of time. This would make sense, as while work does require thinking, my job didn’t require anything in the technical side of things, so those skills have been difficult to pick up again. Again, neuroplasticity is something I learned about in my first year of psychology, but it is a good reminder to incorporate this knowledge into my day to day life; rather than just being aware of it, utilizing that knowledge to improve myself should be the goal.",
+                        "Thirdly, highlighting the importance of Emotional Intelligence was good. I don’t particularly think my IQ is all that high, and my EI probably isn’t either, but I know I probably score around the average mark for both of these, so knowing that having a good sense of both and how this can supplement my productivity in the workplace is reassuring."
+                    ]
+                },
+                {
+                    "heading": "Surprises",
+                    "sections": [
+                        "One of the more surprising things was that most of the core content focused on psychological principles. I had at first thought, and this was reinforced by the first week’s content, that this would more just be an exploration of emotions and morals, with no particular scientific backing, just stuff that seemed like it sounded good and meaningful. I was fairly impressed however that it then went into scientifically supported concepts like neuroplasticity and emotional intelligence though, these were a pleasant and welcome surprise, as it meant the core content of the first week’s sprint, which I didn’t particularly enjoy, was the exception rather than the norm."
+                    ]
+                },
+                {
+                    "heading": "Challenges",
+                    "sections": [
+                        "One of the more surprising things was that most of the core content focused on psychological principles. I had at first thought, and this was reinforced by the first week’s content, that this would more just be an exploration of emotions and morals, with no particular scientific backing, just stuff that seemed like it sounded good and meaningful. I was fairly impressed however that it then went into scientifically supported concepts like neuroplasticity and emotional intelligence though, these were a pleasant and welcome surprise, as it meant the core content of the first week’s sprint, which I didn’t particularly enjoy, was the exception rather than the norm."
+                    ]
+                },
+                {
+                    "heading": "The Reasons for Core",
+                    "sections": [
+                        "I think the reason core is a big focus is because it helps cover some integral aspects of personal development that the technical side of things does not include. The best example of this is probably the week on neuroplasticity and the growth mindset, which cover how an individual can learn and develop, regardless of where they start from. I think this is very important for people to understand, as it can be very demoralizing and demotivating to start from a position behind others, and think that you can never catch up to them. This knowledge helps to counteract that, showing that everyone can learn and develop, and that there are no predetermined physical barriers preventing this. This could be the difference between some people thinking they are not good enough and dropping out, and them persevering until they are able to make it."
+                    ]
+                },
+                {
+                    "heading": "The Value of Core",
+                    "sections": [
+                        "The time spent learning core was not wasted time, not so much because I learned new things, but more that this was a good refresher of things I already knew about, but had forgotten, or deliberately pushed to the background to justify my current lack of development. Again, taking this back to the example of the growth mindset explored in the previous section, I realized I had taken a more fixed mindset in my approach to many things, which is why I have explored a large variety of skills in the past few years, but never developed any of them past a very basic level of understanding, because of a fixed mindset seeing that I wasn’t particularly good at them, and thus justifying giving them up and moving onto something else that until I’ve explored it, I think I might be decent at it. Of course, this mindset made sure exactly the opposite of that happened, I didn’t get good at anything, because I would give up on them before any meaningful development could occur. Now, reminding myself of the growth mindset, I plan to take up some of those things again and persist at them a little more, knowing that through persistent effort, if I just keep doing it, I will eventually improve, and that the only barrier preventing improvement is how much effort I put in."
+                    ]
+                }
+            ]
         }
     ]
 }
