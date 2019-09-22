@@ -1,0 +1,43 @@
+<main>
+  {{#each blogs}}
+    <article class="blog">
+      {{#if rightAligned}}
+        <div 
+          class="blog__image--container" 
+          style="background: url({{image}}); background-size: 100%"
+        >
+        </div>
+      {{/if}}
+      <img class="blog__image" src="{{image}}">
+      {{#if rightAligned}}
+        <div class="blog__text blog__text--right-aligned">
+      {{else}}
+        <div class="blog__text blog__text--left-aligned">  
+      {{/if}}
+        <h1 class="blog__text--title">
+          <a href="/blog/{{id}}">
+            {{title}}
+            <hr>
+          </a>
+        </h1>
+        <p class="blog__text--month">
+          {{month}}
+        </p>
+        <p class="blog__text--year">
+          {{year}}
+        </p>
+        <p class="blog__text--description blog__text--description--hidden description">
+          {{description}}  
+        </p>
+      </div>   
+      {{#if leftAligned}}
+        <div 
+          class="blog__image--container" 
+          style="background: url({{image}}); background-size: 100%"
+        >
+        </div>
+      {{/if}}
+    </article>
+  {{/each}}
+</main>
+

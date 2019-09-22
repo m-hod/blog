@@ -1,0 +1,99 @@
+//put all media query styling for desktop breakpoints here
+
+@media (min-width: 450px) {
+    .blog {
+        height: 350px;
+        width: 100vw;
+    }
+    .blog__image {
+        display: none;
+        &--container {
+            min-height: 100%;
+            min-width: 67.5%;
+            max-width: 100%;
+            background-color: gray;
+        }
+    }
+    .blog__text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 10px;
+        padding: 10px;
+        overflow: hidden;
+        position: relative;
+        &--right-aligned {
+            text-align: left;
+            & h1 {
+                display: flex;
+                align-self: flex-start;
+            }
+            & .blog__text--month {
+                display: flex;
+                align-self: flex-start;
+            }
+        }
+        &--left-aligned {
+            text-align: right;
+            & h1 {
+                display: flex;
+                align-self: flex-end;
+            }
+            & .blog__text--month {
+                display: flex;
+                align-self: flex-end;
+            }
+        }
+        &--title {
+            color: #d6d6d6;
+            font-size: 52px;
+            margin: 10px 0px 0px 0px;
+        }
+        &--month {
+            color: #d6d6d6;
+            font-size: 20px;
+            margin: 0;
+            margin-top: 17.5px;
+            border-bottom: 1px solid #d6d6d6;
+
+        }
+        &--year {
+            color: #d6d6d6;
+            font-size: 20px;
+            margin: 0;
+        }
+        &--description {
+            color: #d6d6d6;
+            &--oversized {
+                overflow-y: scroll;
+            }
+            // position: absolute;
+            // padding-right: 10px;
+            // top: 50%;
+            // &:hover {
+            //     top: 35%;
+            //     &.blog {
+            //          height: 500px;
+            //     }
+            // }
+            // &:before {
+            //     content: "";
+            //     position: absolute;
+            //     width: 100%;
+            //     height: 100%;
+            //     // top: 50%;
+            //     pointer-events: none;
+            //     background: linear-gradient(transparent, #1a1a1a);
+            //     // &:hover {
+            //     //     display: none;
+            //     // }
+            // }
+        }
+    }
+    hr {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 0;
+        color: #d6d6d6;
+    }
+}

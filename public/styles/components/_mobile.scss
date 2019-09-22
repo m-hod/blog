@@ -1,0 +1,55 @@
+//put all media query styling for mobile breakpoints here
+
+@media (max-width: 450px) {
+    .blog {
+        height: 250px;
+        width: 100vw;
+        position: relative;
+    }
+    .blog__image {
+        height: 100%;
+        width: 100%;
+        filter: blur(0.75px) opacity(90%);
+        &--container {
+            display: none;
+        }
+    }
+    .blog__text {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+        &--title {
+            font-size: 46px;
+            margin: 0;
+            text-shadow: 2px 2px 1px black;
+        }
+        &--month {
+            margin-top: 5px;
+            margin-bottom: 0;
+            border-bottom: 1px solid white;
+        }
+        &--year {
+            margin-top: 1px;
+            margin-bottom: 0;
+        }
+        &--description--hidden {
+            display:none;
+        }
+    }
+    hr {
+        width: 100%;
+        margin-top: 2px;
+        margin-bottom: 0;
+        color: white;
+    }
+    .navbar__menu {
+        display: none;
+    }
+}

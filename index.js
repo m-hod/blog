@@ -1,12 +1,7 @@
+const server = require('./server')
 
-function summarize (className) {
-    const content = document.getElementsByClassName(className)
-    for (var i = 0; i < content.length; i++) {
-        let contentHTML = content[i].innerHTML
-        if (contentHTML.length > 150) {
-                content[i].innerHTML = contentHTML.substring(0, 150) + ' ...'
-            }
-    }
-}
+const port = process.env.PORT || 3000
 
-summarize("description")
+server.listen(port, () => {
+    console.log(`Server is listening on ${port}`)
+})
