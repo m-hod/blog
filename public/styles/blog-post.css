@@ -1,37 +1,42 @@
-
-.blog__entry--text {
-    margin: 1.5% 20%;
-}
-
 .blog__entry--container {
-    min-width: 100vw;
-    min-height: 50vh;
-    position: relative;
-    display: flex;
+  min-width: 100vw;
+  min-height: 50vh;
+  position: relative;
+  display: flex;
 }
-
-.blog__text--title {
-    font-size: 80px;
-    text-shadow: 4px 4px 4px black;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.blog__entry--text {
+  margin: 1.5% 20%;
 }
-
+.blog__entry--title {
+  color: #d6d6d6;
+  margin: 10px 0px 0px 0px;
+  font-size: 80px;
+  text-shadow: 4px 4px 4px black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .blog__entry--subheading {
-    color: #d6d6d6;
+  color: #d6d6d6;
 }
-
 .blog__entry--section {
-    color: #d6d6d6;
+  color: #d6d6d6;
 }
 
-/*  add regex to detect links and make them into a tags,
-    otherwise, remove a tags from links */
-/* a {
-    text-decoration: underline;
-} */
+@media (max-width: 450px) {
+  .blog__entry--container {
+    min-height: 200px;
+  }
+  .blog__entry--text {
+    margin: 1.5% 5%;
+  }
+  .blog__entry--title {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=blog-post.css.map */
