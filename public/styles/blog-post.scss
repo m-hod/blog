@@ -42,3 +42,14 @@
         }
     }
 }
+
+@media (min-width: 451px) and (max-width: 1249px) {
+    .blog__entry {
+        &--title {
+            font-size: 65px;
+        }
+        &--text {
+            margin: 1.5% 10%;
+        }
+    }
+}

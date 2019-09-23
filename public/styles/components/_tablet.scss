@@ -1,15 +1,15 @@
-//put all media query styling for desktop breakpoints here
+//put all media query styling for tablet breakpoints here
 
-@media (min-width: 1250px) {
+@media (min-width: 481px) and (max-width: 1249px) {
     .blog {
-        height: 350px;
+        height: 250px;
         width: 100vw;
     }
     .blog__image {
         display: none;
         &--container {
             min-height: 100%;
-            min-width: 67.5%;
+            min-width: 60%;
             max-width: 100%;
             background-color: gray;
         }
@@ -18,15 +18,17 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 0px 10px;
+        margin: 10px 10px;
         padding: 10px;
         overflow: hidden;
         position: relative;
+        justify-content: center;
         &--right-aligned {
             text-align: left;
             & h1 {
                 display: flex;
                 align-self: flex-start;
+                margin-right: 20px;
             }
             & .blog__text--month {
                 display: flex;
@@ -38,6 +40,7 @@
             & h1 {
                 display: flex;
                 align-self: flex-end;
+                margin-left: 20px;
             }
             & .blog__text--month {
                 display: flex;
@@ -46,7 +49,7 @@
         }
         &--title {
             color: #d6d6d6;
-            font-size: 52px;
+            font-size: 45px;
             margin: 10px 0px 0px 0px;
         }
         &--month {
@@ -55,30 +58,15 @@
             margin: 0;
             margin-top: 17.5px;
             border-bottom: 1px solid #d6d6d6;
-
         }
         &--year {
             color: #d6d6d6;
             font-size: 20px;
             margin: 0;
+            overflow: hidden;
         }
-        &--description {
-            color: #d6d6d6;
-            &--fade {
-                position: relative;
-                height: 110px;
-                overflow: hidden;
-                &:after {
-                    content: "";
-                    text-align: right;
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    width: 70%;
-                    height: 19px;
-                    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(26, 26, 26, 1) 75%);
-                }
-            }
+        &--description--hidden {
+            display:none;
         }
     }
     hr {

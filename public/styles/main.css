@@ -25,7 +25,7 @@ a:visited {
   display: flex;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .blog {
     height: 250px;
     width: 100vw;
@@ -82,7 +82,86 @@ a:visited {
     display: none;
   }
 }
-@media (min-width: 450px) {
+@media (min-width: 481px) and (max-width: 1249px) {
+  .blog {
+    height: 250px;
+    width: 100vw;
+  }
+
+  .blog__image {
+    display: none;
+  }
+  .blog__image--container {
+    min-height: 100%;
+    min-width: 60%;
+    max-width: 100%;
+    background-color: gray;
+  }
+
+  .blog__text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+  }
+  .blog__text--right-aligned {
+    text-align: left;
+  }
+  .blog__text--right-aligned h1 {
+    display: flex;
+    align-self: flex-start;
+    margin-right: 20px;
+  }
+  .blog__text--right-aligned .blog__text--month {
+    display: flex;
+    align-self: flex-start;
+  }
+  .blog__text--left-aligned {
+    text-align: right;
+  }
+  .blog__text--left-aligned h1 {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 20px;
+  }
+  .blog__text--left-aligned .blog__text--month {
+    display: flex;
+    align-self: flex-end;
+  }
+  .blog__text--title {
+    color: #d6d6d6;
+    font-size: 45px;
+    margin: 10px 0px 0px 0px;
+  }
+  .blog__text--month {
+    color: #d6d6d6;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 17.5px;
+    border-bottom: 1px solid #d6d6d6;
+  }
+  .blog__text--year {
+    color: #d6d6d6;
+    font-size: 20px;
+    margin: 0;
+    overflow: hidden;
+  }
+  .blog__text--description--hidden {
+    display: none;
+  }
+
+  hr {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #d6d6d6;
+  }
+}
+@media (min-width: 1250px) {
   .blog {
     height: 350px;
     width: 100vw;
@@ -173,12 +252,12 @@ a:visited {
   }
 }
 nav {
-  height: 10vh;
+  height: 100px;
   width: 100vw;
 }
 
 .navbar {
-  height: 10vh;
+  height: 100px;
   width: 100vw;
   background-color: #1a1a1a;
   color: #666666;
