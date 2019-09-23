@@ -1,6 +1,6 @@
 //put all media query styling for mobile breakpoints here
 
-@media (max-width: 480px) {
+@media (max-width: 625px) {
     .blog {
         height: 250px;
         width: 100vw;
@@ -27,7 +27,7 @@
         overflow: hidden;
         &--title {
             font-size: 46px;
-            margin: 0;
+            margin: 0px 30px;
             text-shadow: 2px 2px 1px black;
         }
         &--month {

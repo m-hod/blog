@@ -1,6 +1,6 @@
 //put all media query styling for tablet breakpoints here
 
-@media (min-width: 481px) and (max-width: 1249px) {
+@media (min-width: 626px) and (max-width: 1249px) {
     .blog {
         height: 250px;
         width: 100vw;
@@ -50,7 +50,7 @@
         &--title {
             color: #d6d6d6;
             font-size: 45px;
-            margin: 10px 0px 0px 0px;
+            margin: 0px;
         }
         &--month {
             color: #d6d6d6;
