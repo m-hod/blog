@@ -149,8 +149,20 @@ a:visited {
   .blog__text--description {
     color: #d6d6d6;
   }
-  .blog__text--description--oversized {
-    overflow-y: scroll;
+  .blog__text--description--fade {
+    position: relative;
+    height: 110px;
+    overflow: hidden;
+  }
+  .blog__text--description--fade:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 19px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #1a1a1a 75%);
   }
 
   hr {
