@@ -285,7 +285,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 75px;
   background-color: #1a1a1a;
 }
 .footer__icon {

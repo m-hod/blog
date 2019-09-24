@@ -1,7 +1,7 @@
 // put variables, mixins, functions, etc here
 
 //A mixin for inputting blog images into the correct format in the desktop mainpage. Simply include the mixin and pass in the path to the image
-@mixin blogImage($path) {
-    background: url($path);
-    background-size: 100%;
-}
+// @mixin blogImage($path) {
+//     background: url($path);
+//     background-size: 100%;
+// }
