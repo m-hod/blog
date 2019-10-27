@@ -280,7 +280,26 @@ nav {
 .navbar__menu:hover {
   color: #d6d6d6;
 }
+.navbar__icon {
+  float: left;
+  font-size: 40px;
+  margin: 25px 20px;
+}
+.navbar__icon:hover {
+  color: #d6d6d6;
+}
+.navbar__icon--visible {
+  display: none;
+}
 
+@media (max-width: 625px) {
+  .navbar__title--visible {
+    display: none;
+  }
+  .navbar__icon--visible {
+    display: block;
+  }
+}
 .footer {
   display: flex;
   justify-content: center;

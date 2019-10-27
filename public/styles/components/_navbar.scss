@@ -26,4 +26,26 @@ nav {
             color: #d6d6d6;
         }
     }
+    &__icon {
+        float: left;
+        font-size: 40px;
+        margin: 25px 20px;
+        &:hover {
+            color: #d6d6d6;
+        }
+        &--visible {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 625px) {
+    .navbar {
+        &__title--visible {
+            display: none;
+        }
+        &__icon--visible {
+            display: block;
+        }
+    }
 }
